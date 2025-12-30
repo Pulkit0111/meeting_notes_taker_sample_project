@@ -1,0 +1,30 @@
+/* Page Styles */
+
+/* Home Page */
+.home-page {
+  padding: var(--spacing-lg) 0;
+}
+
+.hero {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-primary);
+}
+
+.hero p {
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+
+/* TODO: Add page-specific styles as you build them */
+/* - Home page actions section */
+/* - Recent meetings section */
+/* - Meetings list page grid */
+/* - Meeting detail page layout */
+/* - Processing page layout */
+
