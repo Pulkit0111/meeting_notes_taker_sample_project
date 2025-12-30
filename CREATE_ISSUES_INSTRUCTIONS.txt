@@ -1,0 +1,90 @@
+================================================================================
+INSTRUCTIONS TO CREATE GITHUB ISSUES
+================================================================================
+
+The boilerplate code has been pushed to GitHub successfully!
+Repository: https://github.com/Pulkit0111/meeting_notes_taker_sample_project
+
+To create the 15 GitHub issues, follow these steps:
+
+OPTION 1: Using Python Script (RECOMMENDED)
+--------------------------------------------
+1. Get a GitHub Personal Access Token:
+   - Visit: https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Name it: "Meeting Note Taker Issues"
+   - Select scope: "repo" (full control of private repositories)
+   - Click "Generate token"
+   - COPY THE TOKEN (you won't see it again!)
+
+2. Run the Python script:
+   cd meeting-note-taker
+   python3 create_github_issues.py YOUR_TOKEN_HERE
+
+   Example:
+   python3 create_github_issues.py ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+3. The script will create all 15 issues automatically!
+
+
+OPTION 2: Using GitHub CLI (if installed)
+------------------------------------------
+1. Make sure gh CLI is installed and authenticated:
+   gh auth login
+
+2. Run the bash script:
+   cd meeting-note-taker
+   chmod +x create-issues.sh
+   ./create-issues.sh
+
+
+OPTION 3: Manual Creation (if scripts don't work)
+--------------------------------------------------
+1. Go to: https://github.com/Pulkit0111/meeting_notes_taker_sample_project/issues
+2. Click "New issue"
+3. Copy content from .github-issues/issue-01.md
+4. Repeat for all 15 issues
+
+
+WHAT'S BEEN DONE:
+================================================================================
+✅ Created complete boilerplate template with:
+   - Backend: FastAPI structure with TODO comments
+   - Frontend: React components with TODO comments
+   - All necessary files and folders
+   - .gitignore files configured
+   - README with setup instructions
+
+✅ Pushed to GitHub:
+   - Repository: Pulkit0111/meeting_notes_taker_sample_project
+   - Branch: main
+   - Commit: "Initial commit: Add boilerplate template"
+
+✅ Created issue scripts:
+   - create_github_issues.py (Python script)
+   - create-issues.sh (Bash script)
+   - ISSUES_README.md (Detailed instructions)
+
+NEXT STEPS FOR STUDENTS:
+================================================================================
+1. Clone the repository
+2. Follow setup instructions in README.md
+3. Work through issues #1-15 in order
+4. Each issue builds on the previous one
+5. Push code after completing each issue
+
+ISSUE BREAKDOWN:
+================================================================================
+Issues 1-6:   Backend (Setup, Database, API, AI Integration)
+Issues 7-12:  Frontend (React, Components, Pages)
+Issues 13-15: Polish (Error Handling, Styling, Testing)
+
+Total estimated time: 60-80 hours (1 week of full-time work)
+
+================================================================================
+For questions or issues, refer to:
+- README.md in the repository
+- ISSUES_README.md for issue creation help
+- docs/Meeting-Note-Taker-PRD.md for detailed requirements
+================================================================================
+
